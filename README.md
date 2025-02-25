@@ -1,6 +1,10 @@
 # Liquid Plug
 
-Simplifying Cross-Chain Payments with Single-Token Preference
+Simplifying Cross-Chain Bridging with LiquidClub Plugin. 
+
+Just Plug and play with our npm package and unify liquidity across chains. 
+
+
 
 ## Overview
 
