@@ -34,10 +34,7 @@ export default function WalletPreferences() {
 
   const savePreferences = async () => {
     try {
-      const provider = new ethers.BrowserProvider(window.ethereum)
-      const signer = await provider.getSigner()
-      const contract = new ethers.Contract(contractAddress, contractABI, signer)
-
+      const provider = new ethers.BrowserProvider(window.ethereum)w
       const primaryAddress = defaultWallet
       const secondaryAddresses = wallets.map((w) => w.address).filter((a) => a !== defaultWallet)
       const chainPreference = wallets.find((w) => w.address === defaultWallet)?.chain || ""
